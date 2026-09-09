@@ -2,8 +2,6 @@
 
 ## Om projektet
 
-## Om projektet
-
 Jag skapade den här webbplatsen i Laboration 1 i kursen Webbutveckling vid Mittuniversitetet. Webbplatsen handlar om olika städer och innehåller text, bilder, länkar och en tabell.
 
 I Laboration 2 har jag använt Git och GitHub för att versionshantera projektet. Jag har även arbetat i flera separata branch och sedan mergat mina ändringar till main.
