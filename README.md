@@ -21,8 +21,8 @@ I projektet användes:
 
 Webbplatsen är publicerad på följande plattformar:
 
-
-> Länkarna kommer att uppdateras när webbplatsen har publicerats.
+GitHub: https://maida1991.github.io/moment-1-webbplats/
+Netlify: https://splendid-moonbeam-9a6fca.netlify.app/
 
 ## Versionshantering
 
