@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Kontakt | Maidas resor</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <p class="webbplatsnamn">Maidas resor</p>
+
+        <nav aria-label="Huvudnavigation">
+            <ul>
+                <li>
+                    <a href="index.html">Startsida</a>
+                </li>
+
+                <li>
+                    <a href="hobby.html">Resor</a>
+                </li>
+
+                <li>
+                    <a href="kontakt.html" aria-current="page">Kontakt</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h1>Kontakta mig</h1>
+
+            <p>
+                Om du har frågor om mig eller mina resor kan du
+                skicka ett meddelande genom formuläret nedan.
+            </p>
+
+            <p>
+                Du kan också nå mig direkt på
+                <a href="mailto:maer2607@student.miun.se">
+                    maer2607@student.miun.se
+                </a>.
+            </p>
+        </section>
+
+        <section class="formularkort">
+            <h2>Kontaktformulär</h2>
+
+            <form action="#" method="post">
+                <div class="falt">
+                    <label for="namn">Namn</label>
+
+                    <input type="text" id="namn" name="namn" autocomplete="name" required>
+                </div>
+
+                <div class="falt">
+                    <label for="epost">E-post</label>
+
+                    <input type="email" id="epost" name="epost" autocomplete="email" placeholder="namn@exempel.se"
+                        required>
+                </div>
+
+                <div class="falt">
+                    <label for="meddelande">Meddelande</label>
+
+                    <textarea id="meddelande" name="meddelande" rows="6" required></textarea>
+                </div>
+
+                <div class="kryssruta">
+                    <input type="checkbox" id="kopia" name="kopia">
+
+                    <label for="kopia">
+                        Jag vill få en kopia av mitt meddelande
+                    </label>
+                </div>
+
+                <button type="submit">Skicka</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>
+            &copy; 2026 Maida Erovic |
+            <a href="kontakt.html">Kontakta mig</a>
+        </p>
+    </footer>
+</body>
+
+</html>
